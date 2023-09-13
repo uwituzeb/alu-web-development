@@ -5,6 +5,8 @@ main{
 
 body{
     flex-direction: column;
+    background-color: paleturquoise;
+    color: rgb(88, 84, 84)
 }
 
 main{
@@ -18,6 +20,11 @@ article{
 
 aside{
     flex: 1;
+    background-color: gray;
+}
+
+li a:hover{
+    text-decoration: underline;
 }
 
 article,
