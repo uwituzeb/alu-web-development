@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website</title>
+    <title>Figma page</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 </head>
 <body>
     <header class="background">
@@ -14,9 +15,7 @@
                 <a href="index.html"><img src="images/SmileSchool.png" alt="logo"></a>
             </div>
             <div class="nav">
-                <a href="#" class="courses">COURSES</a>
-                <a href="#" class="pricing">PRICING</a>
-                <a href="#" class="login">LOGIN</a>
+                <a href="#" class="courses">COURSES</a><a href="#" class="pricing">PRICING</a><a href="#" class="login">LOGIN</a>
             </div>
         </div>
     </header>
@@ -24,7 +23,10 @@
         <section id="banner" class="background">
             <div>
                 <h1>Get Schooled</h1>
-                <p class="text">SMILES GRIN LAUGH</p>
+                <p class="text">
+                    <span>SMILES</span>
+                    <span>GRIN</span>
+                    <span>LAUGH</span>
                 <button class="register">REGISTER FOR FREE</button>
             </div>
             <div>
@@ -58,11 +60,12 @@
         </section>
 
         <section id="video">
-            <h1>Most popular tutorials</h1>
-            <div>
-                <div class="tutorials">
+            <h1>Most <span>popular</span> tutorials</h1>
+            <div class="videos-list">
+                <div class="video-card">
                     <img src="images/preview (1).png" alt="thumbnail">
-                    <h2>Diagonal Smile</h2>
+                    <a class="play" href="#"><img src="images/"></a>
+                    <h2 class="video-title">Diagonal Smile</h2>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et animi illum ipsum ratione magni non dicta. Non explicabo illo animi natus earum, dicta mollitia soluta! Ut cum minus quidem quos.</p>
                     <div>
                         <img src="images/avatar (1).png" alt="author">
