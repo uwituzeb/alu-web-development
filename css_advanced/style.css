@@ -176,33 +176,48 @@ main {
 #quote{
   background-color: #c271ff;
   padding: 6%;
-
 }
 
-#quote div{
+.quote-block{
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
   color: white;
   padding-left: 9%;
   padding-right: 9%;
+  align-items: flex-start;
 
 }
 
-#quote img{
+.quote-block blockquote{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 34px;
+
+}
+
+.quote img{
   width: 160px;
   height: 160px;
   margin-right: 3rem;
 
 }
 
-#quote blockquote{
+
+.quote-block .name{
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 34px;
+  margin-bottom: 0;
+}
+
+.quote-block .weather{
+  font-style: italic;
   font-weight: 400;
   font-size: 22px;
   line-height: 34px;
-  margin-left: 0;   
+  margin-top: 0;
 }
+
 
 /*video section*/
 #video{
@@ -221,8 +236,8 @@ main {
 #video h1{
   font-weight: 300;
   font-size: 32px;
-  line-height: 40px;
-  padding-top: 1rem;
+  line-height: 10px;
+  padding-top: 0.5rem;
   padding-bottom: 2rem;
 }
 
@@ -249,6 +264,7 @@ main {
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 0.1rem;
+  margin-top: 0.1rem;
 }
 
 .video-card .video-description {
@@ -315,7 +331,7 @@ main {
 #membership h1{
   font-weight: 300;
   font-size: 32px;
-  line-height: 40px;
+  line-height: 10px;
   text-align: center;
   padding-bottom: 2rem;
 } 
@@ -337,6 +353,15 @@ main {
   max-width: 12%;
   align-items: center;
   text-align: center;
+
+}
+
+.membership-card p{
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 26px;
+
 }
 .membership-card h2 {
   margin-bottom: 0.1rem;
@@ -345,22 +370,22 @@ main {
 /*faq section*/
 .faq-list {
   display: flex;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 .faq-item {
   display: flex;
-  flex: 50%;
+  flex: 1;
   flex-direction: column;
   width: 50%;
   padding: 5%;
 }
 
-#faq p{
+.faq-item p{
   color:rgba(7, 22, 41, 0.5016);
   font-weight: 100;
   font-size: 14px;
-
+  line-height: 24px;
 }
 
 /*footer*/
@@ -398,5 +423,6 @@ header .logo{
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
+  padding-top: 100px;
    
 }
